@@ -15,6 +15,7 @@ public class SmokeTest {
     public void Open_firefox_and_start_application() throws Throwable {
         driver = new FirefoxDriver();
         driver.get("https://www.google.co.in");
+        System.out.println("Browser Opened");
         
        
     }
